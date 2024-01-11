@@ -16,6 +16,7 @@ Before using the deployment script, ensure you have the following prerequisites:
    ```bash
    git clone https://github.com/your-username/cloud-resume-frontend.git
    cd cloud-resume-frontend
+   
 Ensure that your variables.ps1 file is correctly configured with your GCP project, Cloud Run service URL, and preferred region:
 
 ```powershell
