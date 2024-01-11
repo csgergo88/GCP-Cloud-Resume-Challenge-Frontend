@@ -1,5 +1,5 @@
 # Cloud resume Challange Frontend
-# Frontend for Cloud Resume Challenge
+## Frontend for Cloud Resume Challenge
 
 This repository contains the frontend code for the Cloud Resume Challenge. The deployment process is streamlined using the deployment.ps1 script, allowing for easy deployment of the frontend to Google Cloud Platform (GCP). This README provides guidance on using the deployment script and deploying the frontend to GCP.
 
