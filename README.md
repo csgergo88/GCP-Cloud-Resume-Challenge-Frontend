@@ -1,5 +1,23 @@
 # Cloud resume Challange Frontend
-## Frontend for Cloud Resume Challenge
+
+<p align="center">
+  <a href="">
+    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*lDi1bp7b37khnH3tPVoLuQ.png" alt="Logo" width="50%" height="50%">
+  </a>
+
+  <h3 align="center">Google Cloud Platform (GCP) Resume Challenge </h3>
+
+  <p align="center">
+    Build a serverless resume website on GCP with API backend and GitOps-based CI/CD
+    <br />
+    <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp" target="_blank"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues">Request Feature</a>
+  </p>
+</p>
 
 This repository contains the frontend code for the Cloud Resume Challenge. The deployment process is streamlined using the deployment.ps1 script, allowing for easy deployment of the frontend to Google Cloud Platform (GCP). This README provides guidance on using the deployment script and deploying the frontend to GCP.
 
