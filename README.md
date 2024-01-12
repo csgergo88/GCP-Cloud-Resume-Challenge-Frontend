@@ -41,7 +41,6 @@ The script creates a storage bucket, updates the HTML with the Cloud Run service
 Feel free to customize the script or HTML file according to your specific requirements. For any issues or improvements, please open an issue or pull request on the repository.
 
 ## Update
-## Note
 You can now optionally use init.tf to create resources by using terrafrom. Please don't forget to create a service account with the neccesary roles and put credentials of this service account to credentials.json. 
 You'll need to update variables on the top of the file such as project, region, etc. 
 
