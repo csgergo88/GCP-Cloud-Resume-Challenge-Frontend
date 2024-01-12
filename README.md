@@ -43,6 +43,10 @@ Feel free to customize the script or HTML file according to your specific requir
 ## Update
 You can now optionally use init.tf to create resources by using terrafrom. Please don't forget to create a service account with the neccesary roles and put credentials of this service account to credentials.json. 
 You'll need to update variables on the top of the file such as project, region, etc. 
+Deploy resources:
 
+```
+   terraform .\init.tf
+```
 
 Happy coding!
