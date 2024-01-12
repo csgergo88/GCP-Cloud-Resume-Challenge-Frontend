@@ -16,7 +16,7 @@ Before using the deployment script, ensure you have the following prerequisites:
    ```
    git clone https://github.com/your-username/cloud-resume-frontend.git
    cd cloud-resume-frontend
-   
+
 Ensure that your variables.ps1 file is correctly configured with your GCP project, Cloud Run service URL, and preferred region:
 
 ```
@@ -24,12 +24,12 @@ Ensure that your variables.ps1 file is correctly configured with your GCP projec
    $project = "resumechallangetest"
    $cloudrunserviceurl = "https://test-h5jqdffluq-ue.a.run.app"
    $bucket_name = "resume_challange"
-
+```
 Run the deployment script:
 
-```powershell
+```
    .\deployment.ps1
-
+```
 Wait for the deployment process to complete. This includes creating a storage bucket, updating the resume HTML with the Cloud Run service URL, granting access to all users, and setting up a CDN and Load Balancer.
 
 After the deployment is successful, you can access your Cloud Resume frontend using the Load Balancer IP provided in the script output.
