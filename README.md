@@ -34,7 +34,7 @@ Wait for the deployment process to complete. This includes creating a storage bu
 
 After the deployment is successful, you can access your Cloud Resume frontend using the Load Balancer IP provided in the script output.
 
-##Notes
+## Notes
 Ensure that the variables.ps1 file is correctly configured with your GCP project, Cloud Run service URL, and preferred region before running the script.
 The script creates a storage bucket, updates the HTML with the Cloud Run service URL, and sets up a CDN and Load Balancer to serve the frontend.
 Feel free to customize the script or HTML file according to your specific requirements. For any issues or improvements, please open an issue or pull request on the repository.
