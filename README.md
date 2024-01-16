@@ -10,12 +10,14 @@
   <p align="center">
     Build a serverless resume website on GCP with API backend and GitOps-based CI/CD
     <br />
-    <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp" target="_blank"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
     <br />
+    <a href="http://34.149.15.71/my_resume.html" target="_blank">View Demo</a>
     <br />
-    <a href="https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues">Report Bug</a>
+    <a href="[https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues](https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Frontend/issues)">Report Bug</a>
+    <br />
+    <a href="[https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues](https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Frontend/issues)">Report Bug</a>
     ·
-    <a href="https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues">Request Feature</a>
+    <a href="https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Frontend/issues">Request Feature</a>
   </p>
 </p>
 
