@@ -1,3 +1,4 @@
+
 # Cloud resume Challange Frontend
 
 <p align="center">
@@ -38,7 +39,7 @@ Before using the deployment script, ensure you have the following prerequisites:
 
 You have two options to deploy this project:
 
-Using Power Shell:
+ **Using Power Shell:**
 Ensure that your variables.ps1 file is correctly configured with your GCP project, Cloud Run service URL, and preferred region:
 
 ```
@@ -46,7 +47,8 @@ Ensure that your variables.ps1 file is correctly configured with your GCP projec
    $project = "resumechallangetest"
    $cloudrunserviceurl = "https://test-h5jqdffluq-ue.a.run.app"
    $bucket_name = "resume_challange"
-```
+```	
+
 Run the deployment script:
 
 ```
@@ -54,8 +56,8 @@ Run the deployment script:
 ```
 Wait for the deployment process to complete. This includes creating a storage bucket, updating the resume HTML with the Cloud Run service URL, granting access to all users, and setting up a CDN and Load Balancer.
 
-Using Terraform:
-  - Ensure that your variables in terraform.tfvars matches your target deployment
+**Using Terraform:**
+  - Ensure that your variables in *terraform.tfvars* matches your target deployment
   - Initialize directory, plan, review and apply
 ```
   cd ./infra
@@ -67,17 +69,9 @@ Using Terraform:
 After the deployment is successful, you can access your Cloud Resume frontend using the Load Balancer IP provided in the script output.
 
 ## Notes
-Ensure that the variables.ps1 file is correctly configured with your GCP project, Cloud Run service URL, and preferred region before running the script.
+Ensure that the v*ariables.ps1/terraform.tfvars* file is correctly configured with your GCP project, Cloud Run service URL, and preferred region before running the script.
 The script creates a storage bucket, updates the HTML with the Cloud Run service URL, and sets up a CDN and Load Balancer to serve the frontend.
 Feel free to customize the script or HTML file according to your specific requirements. For any issues or improvements, please open an issue or pull request on the repository.
 
-## Update
-You can now optionally use init.tf to create resources by using terrafrom. Please don't forget to create a service account with the neccesary roles and put credentials of this service account to credentials.json. 
-You'll need to update variables on the top of the file such as project, region, etc. 
-Deploy resources:
-
-```
-   terraform .\init.tf
-```
 
 Happy coding!
