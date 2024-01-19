@@ -36,6 +36,9 @@ Before using the deployment script, ensure you have the following prerequisites:
    git clone https://github.com/csgergo88/cloud-resume-frontend.git
    cd cloud-resume-frontend
 
+You have two options to deploy this project:
+
+Using Power Shell:
 Ensure that your variables.ps1 file is correctly configured with your GCP project, Cloud Run service URL, and preferred region:
 
 ```
@@ -51,6 +54,16 @@ Run the deployment script:
 ```
 Wait for the deployment process to complete. This includes creating a storage bucket, updating the resume HTML with the Cloud Run service URL, granting access to all users, and setting up a CDN and Load Balancer.
 
+Using Terraform:
+  - Ensure that your variables in terraform.tfvars matches your target deployment
+  - Initialize directory, plan, review and apply
+```
+  cd ./infra
+  terraform init
+  terraform plan
+  terraform apply
+```
+  
 After the deployment is successful, you can access your Cloud Resume frontend using the Load Balancer IP provided in the script output.
 
 ## Notes
