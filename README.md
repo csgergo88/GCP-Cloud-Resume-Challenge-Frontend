@@ -92,6 +92,7 @@ Things missing in the project due to time constraints that I would like to imple
 
 * Add unit-test code for the frontend and backend
 * Register cloud domain and add DNS functionality to project
+* Setup Cloud Build CI/CD env
 * Merge the forntend and backend into a single repo
 * Use environment variables and git branches to be able to deploy to dev staging and prod environments on demmand.
 * Make a step-by-step guide to implement the project
