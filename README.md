@@ -30,7 +30,7 @@ This repository contains the frontend code for the Cloud Resume Challenge. In ca
 
 ![GCP Current Design](Architecture/Current.png)
 
-To see backend click [here](https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Backend)
+To check backend click [here](https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Backend)
 
 ## Prerequisites
 Before using the deployment script, ensure you have the following prerequisites:
