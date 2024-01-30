@@ -26,7 +26,7 @@ This repository contains the frontend code for the Cloud Resume Challenge. The d
 
 ![GCP Complete Architecture](Architecture/Complete.png)
 
-## Current design
+## Current <b>frontend</b> design
 
 ![GCP Current Design](Architecture/Current.png)
 
