@@ -20,7 +20,7 @@
   </p>
 </p>
 
-This repository contains the frontend code for the Cloud Resume Challenge. In case you are interested in backend then it's located [here](https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Backend)The deployment process is streamlined using the deployment.ps1 script, allowing for easy deployment of the frontend to Google Cloud Platform (GCP). This README provides guidance on using the deployment script and deploying the frontend to GCP.
+This repository contains the frontend code for the Cloud Resume Challenge. In case you are interested in backend then it's located [here](https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Backend). The deployment process is streamlined using the deployment.ps1 script, allowing for easy deployment of the frontend to Google Cloud Platform (GCP). This README provides guidance on using the deployment script and deploying the frontend to GCP.
 
 ## Architecture
 
