@@ -84,8 +84,6 @@ The script creates a storage bucket, updates the HTML with the Cloud Run service
 Feel free to customize the script or HTML file according to your specific requirements. For any issues or improvements, please open an issue or pull request on the repository.
 
 
-##Roadmap
-
 ## Roadmap
 
 Things missing in the project due to time constraints that I would like to implement in the future
