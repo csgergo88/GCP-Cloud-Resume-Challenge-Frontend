@@ -12,7 +12,7 @@
     Build a serverless resume website on GCP with API backend and GitOps-based CI/CD
     <br />
     <br />
-    <a href="http://34.120.161.232/my_resume.html" target="_blank">View Demo</a>
+    <a href="http://34.49.56.203/my_resume.html" target="_blank">View Demo</a>
     <br />
     <a href="https://github.com/csgergo88/GCP-Cloud-Resume-Challenge-Frontend/issues">Report Bug</a>
     ·
