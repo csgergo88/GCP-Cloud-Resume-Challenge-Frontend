@@ -1,5 +1,5 @@
 region="us-east1"
-service_key="../credentials.json"
-project="resumechallangetest"
-cloudrunserviceurl="https://test-h5jqdffluq-ue.a.run.app"
+service_key="../credentials_csm.json"
+project="resume-challange"
+cloudrunserviceurl="https://test-dr3glsf7la-ue.a.run.app"
 bucket_name="resume_challange"

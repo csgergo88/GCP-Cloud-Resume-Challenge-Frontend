@@ -27,6 +27,7 @@ resource "google_storage_bucket_object" "html_object" {
 resource "google_compute_backend_bucket" "resume_backend" {
   name    = "resume-backend"
   bucket_name = google_storage_bucket.my_bucket.name
+  enable_cdn  = true
 }
 
 # Create URL Map

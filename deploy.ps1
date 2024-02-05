@@ -24,8 +24,9 @@ gsutil cp .\my_resume.html gs://$bucket_name
 
 #Create CDN and LB
 
-#Creating backend bucket
+#Creating backend bucket - To enable CDN use --enable-cdn instead of --no-enable-cdn
 gcloud compute backend-buckets create resume-backend --gcs-bucket-name=$bucket_name --no-enable-cdn
+
 
 #URL Map
 gcloud compute url-maps create cnlb --default-backend-bucket=resume-backend 
